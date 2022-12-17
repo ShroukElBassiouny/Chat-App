@@ -48,11 +48,6 @@ io.on('connection',(socket)=>{
         callback()
     } )
 
-    socket.on('message', data => {
-        const img = document.createElement('img')
-        img.src = 'data:image/jpeg;base64,' + data.buffer
-    })
-
     socket.on('disconnect',()=>{
         const user = removeUser(socket.id)
         if(user){
