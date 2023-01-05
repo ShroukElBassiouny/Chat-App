@@ -4,11 +4,11 @@ const express = require('express')
 const app = express()
 const socketio = require('socket.io')
 const Filter = require('bad-words')
-const {generateMessage , generateLocationMessage} = require('./utils/messages')
-const { addUser, removeUser, getUser, getAllUsersInRoom } = require('./utils/users')
+const {generateMessage , generateLocationMessage} = require('./src/utils/messages')
+const { addUser, removeUser, getUser, getAllUsersInRoom } = require('./src/utils/users')
 
 const port = process.env.PORT || 3000
-const publicDirectoryPath = path.join(__dirname, '../public')
+const publicDirectoryPath = path.join(__dirname, './public')
 const server = http.createServer(app)
 const io = socketio(server)
 // Setup static directory to serve
