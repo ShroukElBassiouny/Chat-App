@@ -1,6 +1,5 @@
 # Chat App
-Chat App is a full-stack Realtime web application using node.js 
-With this app, you can create rooms with your friends, send messages, filter bad words, and share locations with each other 
+Chat App is a full-stack Realtime web application. With this app, you can create rooms with your friends, send messages, filter bad words, and share locations with each other 
 
 ## Tools 
 Chat App uses several tools to work properly:
