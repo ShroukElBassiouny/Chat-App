@@ -6,7 +6,7 @@ With this app, you can create rooms with your friends, send messages, filter bad
 Chat App uses several tools to work properly:
 - filtering bad words by using bad-words library
 - socket.io realtime app framework
-- Express 
+- Express node.js web application framework
 - HTML, CSS, and js for building client-side
 
 ## to rebuild node_modules
