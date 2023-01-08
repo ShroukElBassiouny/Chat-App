@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000
 const publicDirectoryPath = path.join(__dirname, './public')
 const server = http.createServer(app)
 const io = socketio(server)
+
 // Setup static directory to serve
 app.use(express.static(publicDirectoryPath))
 
